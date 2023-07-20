@@ -1,6 +1,6 @@
 // Leer productos
 
-const listaProductos = () => fetch("http://localhost:3000/products").then( respuesta => respuesta.json());
+const listaProductos = () => fetch("https://alejoflop.github.io/AluraGeekG5/db.json").then( respuesta => respuesta.json());
 
 
 // Agregar producto
