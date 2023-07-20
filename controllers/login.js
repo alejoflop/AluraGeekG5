@@ -12,7 +12,7 @@ login.addEventListener("submit", async (evento) => {
 
     admins.find(usuario => {
         if (usuario.email === emailInput && usuario.password === passwordInput) {
-            return window.location.href = "/assets/screens/products.html"
+            return window.location.href = "../screens/products.html"
         } else {
             alert("Usuario o contraseña incorrecto")
         };
