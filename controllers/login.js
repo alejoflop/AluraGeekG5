@@ -10,7 +10,9 @@ login.addEventListener("submit", async (evento) => {
 
     const admins = await productServices.listaAdmins();
 
-    admins.find(usuario => {
+    console.log(admins)
+
+    admins['admins'].find(usuario => {
         if (usuario.email === emailInput && usuario.password === passwordInput) {
             return window.location.href = "../screens/products.html"
         } else {
