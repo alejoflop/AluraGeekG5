@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font -->
+    <link href = "https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap" rel = "stylesheet">
+    
+    <title>AluraGeek</title>
+    <link rel="icon" type="image/png" href="./assets/img/logo_icon.svg" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/base/base.css" />
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/contacto/contact.css">
+    <link rel="stylesheet" href="./assets/css/rodapie/rodapie.css">
+    <link rel="stylesheet" href="./assets/css/add/addContainer.css">
+
+
+</head>
+<body>
+    <!-- Sección del Menú  -->
+    <header class="header__container container">
+        <div class = "header__items">
+            <a class = "header__logoHome" href = "./index.html">
+                <img alt = "logo" class = "header__logoHome-image" src = "./assets/img/logo.svg">
+            </a>
+            <div class = "header__search" id = "search__container">
+                <input class = "header__search-input" id = "search__items" placeholder = " Qué desea buscar ?" type = "text">
+                <button class = "header__search-button" id = "search__action"><img alt = "" class = "header__search-icon" src = "./assets/img/search.svg"></button>
+            </div>
+        </div>
+        <a class = "header__login" href = "./assets/screens/products.html">
+            <button class = "header__login-button">Menu administrador</button>
+        </a>
+    </header>
+
+    <!-- Sección Principal -->
+    <main>
+
+        <!-- Formulario agregar nuevo producto -->
+        <section class="add__container">
+            <form class="add__form" data-form>
+                <fieldset>
+                    <legend class="add__title">Editar producto</legend>
+                    <div class="add__input">
+                        <input name="url" id="url" class="input form-input" type="text" placeholder="URL de la imagen" required data-url>
+                        <label class="input-label" for="url">URL de la imagen</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="add__input">
+                        <input name="categoria" id="categoria" class="input form-input" type="text" placeholder="Categoria" required data-categoria>
+                        <label class="input-label" for="categoria">Categoria</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="add__input">
+                        <input name="product__name" id="product__name" class="input form-input" type="text" placeholder="Nombre del producto" required data-productName>
+                        <label class="input-label" for="product__name">Nombre del producto</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="add__input">
+                        <input name="price" id="price" class="input form-input" type="text" placeholder="Precio" required data-price>
+                        <label class="input-label" for="price">Precio del producto</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="input-container">
+                        <textarea class="formcontact__textarea form-input" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Descripción del producto" required data-description></textarea>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <button type="submit" class="add__button">Editar producto</a>
+                    
+                </fieldset>
+            </form>
+        </section>
+
+        <!-- Sección Footer -->
+        <footer>
+            <!-- Sección Contacto -->
+            <section class = "contacto__container container">
+                <div class="contacto__logoInfo">
+                    <div class = "contacto__logo">
+                        <a href = "#">
+                            <img alt = "logo" class = "contacto__logoFooter" src = "./assets/img/logo.svg">
+                        </a>
+                    </div>
+                    <div class = "contacto__info">
+                        <ul>
+                            <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Quienes somos</a></li>
+                            <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Política de privacidad</a>
+                            </li>
+                            <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Programa de fidelidad</a>
+                            </li>
+                            <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Nuestras Tiendas</a></li>
+                            <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Quiero ser franquiciado</a>
+                            </li>
+                            <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Anúncie aquí</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <form class="contacto__contactar">
+                    <fieldset>
+                        <legend class="contacto__title">Hable con nosotros</legend>
+                        <div class="input-container">
+                            <input name="name" id="name" autocomplete="off" class="input form-input" type="text" placeholder="Nombre" required data-tipo="nombre">
+                            <label class="input-label" for="name">Nombre</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                        <div class="input-container">
+                            <textarea class="formcontact__textarea form-input" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                    </fieldset>
+                    <button class="button">Enviar mensaje</a>
+                </form>
+            </section>
+
+            <!-- Sección Rodapie -->
+            <div class="info__dev container">
+                <p>Desarrollado por Alejandro Florez</p>
+                <p>2023</p>
+                <div class="redes">
+                    <a href="https://github.com/alejoflop"><img src="./assets/img/github.svg " alt="git"></a>
+                    <a href="https://www.linkedin.com/in/alejandroflorezl/"><img src="./assets/img/linkedin.svg" alt="linkedin"></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./controllers/validaciones.js"></script>
+    <script type="module" src="./controllers/editar.controller.js"></script>
+</body>
