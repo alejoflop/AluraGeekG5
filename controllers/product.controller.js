@@ -29,7 +29,7 @@ const crearNuevoProducto = (url, productName, price, id) => {
 const table = document.querySelector("[data-table]");
 
 productServices.listaProductos().then((data) => {
-    data.forEach(({url, productName, price, id}) => {
+    data['products'].forEach(({url, productName, price, id}) => {
         const nuevaLinea = crearNuevoProducto(url, productName, price, id);
         table.appendChild(nuevaLinea);
     });
