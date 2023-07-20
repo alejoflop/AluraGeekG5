@@ -18,7 +18,7 @@ const addProduct = (url, categoria, productName, price, description) => {
 // Eliminar producto
 
 const eliminarProducto = (id) => {
-    return fetch(`http://localhost:3000/products/${id}`, {
+    return fetch(`https://alejoflop.github.io/AluraGeekG5/db.json/${id}`, {
         method: "DELETE",
     })
 }
