@@ -1,7 +1,7 @@
-@import url(./assets/css/login/loginForm.css);
-@import url(./assets/css/login/loginTitle.css);
-@import url(./assets/css/login/loginInput.css);
-@import url(./assets/css/login/loginButton.css);
+@import url(./loginForm.css);
+@import url(./loginTitle.css);
+@import url(./loginInput.css);
+@import url(./loginButton.css);
 
 .login__container {
     background: var(--lightest-variation);
