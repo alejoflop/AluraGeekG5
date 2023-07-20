@@ -1,0 +1,22 @@
+.product__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.product__name {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--darkest-variation);
+}
+
+.product__price {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--darkest-variation);
+}
+
+.product__id {
+    width: 176px;
+}

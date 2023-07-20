@@ -1,0 +1,25 @@
+.contacto__logoInfo {
+    display: flex;
+}
+
+@media screen and (min-width: 0px) {
+    .contacto__logoInfo {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contacto__logoInfo {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contacto__logoInfo {
+        flex-direction: row;
+        gap: 8rem;
+    }
+}

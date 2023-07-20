@@ -1,0 +1,14 @@
+.info__dev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 1rem;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}

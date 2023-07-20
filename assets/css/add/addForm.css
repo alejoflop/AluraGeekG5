@@ -1,0 +1,29 @@
+.add__form fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.8rem;
+}
+
+.add__form button {
+    align-self: center;
+}
+
+
+@media screen and (min-width: 0px) {
+    .add__form {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .add__form {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .add__form {
+        width: 45%;
+    }
+}

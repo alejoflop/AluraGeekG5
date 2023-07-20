@@ -1,0 +1,38 @@
+@import url(contactInfo.css);
+@import url(contactForm.css);
+@import url(contactFormTitle.css);
+@import url(contactInput.css);
+@import url(contactButton.css);
+@import url(contactLogoInfo.css);
+
+.contacto__container {
+    background: var(--blue-variation);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 0px) {
+    .contacto__container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contacto__container {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contacto__container {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}

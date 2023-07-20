@@ -1,0 +1,31 @@
+.banner__button {
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.banner__button:hover {
+    box-shadow: 10px 5px 10px 5px rgba(22, 26, 45, 0.11);
+    transform: scale(1.02);
+}
+
+.banner__button:active {
+    box-shadow: inset 0 0 30px 8px rgba(22, 26, 45, 0.11), 0 0 5px 1px #000000;
+    transform: scale(0.99);
+}
+
+@media screen and (min-width: 0px) {
+    .banner__button {
+        padding: 0.75rem 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__button {
+        padding: 1rem;
+    }
+}

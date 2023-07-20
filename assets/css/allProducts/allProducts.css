@@ -1,0 +1,13 @@
+@import url(allProductsContainer.css);
+@import url(allProductsHeader.css);
+@import url(allProductsTitle.css);
+@import url(allProductsAgregar.css);
+@import url(allProductsList.css);
+@import url(allProductInfo.css);
+@import url(allProductCard.css);
+@import url(editButtons.css);
+
+.products {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}

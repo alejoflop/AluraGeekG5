@@ -1,0 +1,36 @@
+.login__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.login__form fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.login__form a {
+    align-self: center;
+}
+
+@media screen and (min-width: 0px) {
+    .login__form {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .login__form {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .login__form {
+        width: 38%;
+    }
+}
+

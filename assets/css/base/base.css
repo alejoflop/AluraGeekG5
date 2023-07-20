@@ -1,0 +1,29 @@
+@import url(reset.css);
+@import url(variables.css);
+
+body {
+    background: var(--white);
+    color: var(--darkest-variation);
+    font-family: var(--fuente_principal);
+    overflow-x: hidden;
+}
+
+
+@media screen and (min-width: 0px) {
+    .container {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100vw - 1200px) / 2);
+        padding-right: calc((100vw - 1200px) / 2);
+    }
+}

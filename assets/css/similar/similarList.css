@@ -1,0 +1,29 @@
+.similar__list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+@media screen and (min-width: 0px) {
+    .similar__list .product__card:nth-child(n+5) {
+        display: none;
+    }
+    .similar__list {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .similar__list {
+        flex-wrap: nowrap;
+        gap: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .similar__list .product__card:nth-child(n+5) {
+        display: flex;
+    }
+}

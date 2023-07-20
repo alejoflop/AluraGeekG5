@@ -1,0 +1,7 @@
+@import url(/assets/css/similar/similarContainer.css);
+@import url(/assets/css/similar/similarTitle.css);
+@import url(/assets/css/similar/similarList.css);
+
+.similar {
+    padding-bottom: 4rem;
+}

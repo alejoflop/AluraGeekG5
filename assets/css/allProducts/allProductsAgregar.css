@@ -1,0 +1,40 @@
+.product__add {
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 300ms;
+    display: flex;
+    justify-content: center;
+}
+
+.product__add:hover {
+    box-shadow: 10px 5px 10px 5px rgba(22, 26, 45, 0.11);
+    transform: scale(1.02);
+}
+
+.product__add:active {
+    box-shadow: inset 0 0 30px 8px rgba(22, 26, 45, 0.11), 0 0 5px 1px #000000;
+    transform: scale(0.99);
+}
+
+@media screen and (min-width: 0px) {
+    .product__add {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .product__add {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .product__add {
+        width: 18%;
+    }
+}

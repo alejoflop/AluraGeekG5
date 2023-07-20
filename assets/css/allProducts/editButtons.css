@@ -1,0 +1,32 @@
+.edit__buttons {
+    background: transparent;
+    position: absolute;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 165px;
+    height: 20px;
+    gap: 0.5rem;
+}
+
+.delete__button {
+    width: 22px;
+    height: 22px;
+    background: url(/assets/img/delete.svg) no-repeat;
+}
+
+.delete__button:hover {
+    background: url(/assets/img/delete_hover.svg) no-repeat;
+}
+
+.edit__button {
+    width: 22px;
+    height: 22px;
+    background: url(/assets/img/edit.svg) no-repeat;
+}
+
+.edit__button:hover {
+    background: url(/assets/img/edit_hover.svg) no-repeat;
+}
+
+

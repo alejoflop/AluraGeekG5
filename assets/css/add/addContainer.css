@@ -1,0 +1,13 @@
+@import url(/assets/css/add/addButton.css);
+@import url(/assets/css/add/addContainer.css);
+@import url(/assets/css/add/addForm.css);
+@import url(/assets/css/add/addInput.css);
+@import url(/assets/css/add/addTitle.css);
+
+.add__container {
+    background: var(--lightest-variation);
+    padding-top: 5.75rem;
+    padding-bottom: 5.75rem;
+    display: flex;
+    justify-content: center;
+}

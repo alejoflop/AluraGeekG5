@@ -1,0 +1,22 @@
+.product__list {
+    display: inline-flex;
+    justify-content: left;
+
+}
+
+
+@media screen and (min-width: 0px) {
+    .product__list .product__card:nth-child(n+5) {
+        display: none;
+    }
+    .product__list {
+        flex-wrap: wrap;
+        gap: 1.563rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .product__list .product__card:nth-child(n+5) {
+        display: flex;
+    }
+}

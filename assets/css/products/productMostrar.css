@@ -1,0 +1,32 @@
+.product__mostrar {
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    font-weight: 500;
+
+    font-family: var(--fuente_principal);
+}
+
+.product__mostrar img {
+    margin-left: 5px;
+}
+
+@media screen and (min-width: 0px) {
+    .product__mostrar {
+        font-size: 0.875rem;
+    }
+    .product__mostrar img {
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .product__mostrar {
+        font-size: 1rem;
+    }
+    .product__mostrar img {
+        width: auto;
+        height: auto;
+    }
+}

@@ -1,0 +1,29 @@
+@import url(/assets/css/infoProduct/infoProductImg.css);
+@import url(/assets/css/infoProduct/infoProductDiv.css);
+
+.info__product {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 4rem;
+}
+
+@media screen and (min-width: 0px) {
+    .info__product {
+        padding-top: 0;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .info__product {
+        padding-top: 2rem;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .info__product {
+        padding-top: 4rem;
+    }
+}

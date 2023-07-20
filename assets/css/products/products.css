@@ -1,0 +1,15 @@
+@import url(productContainer.css);
+@import url(productHeader.css);
+@import url(productTitle.css);
+@import url(productMostrar.css);
+@import url(productList.css);
+@import url(productInfo.css);
+@import url(productCard.css);
+
+.products {
+    padding-top: 4rem;
+}
+
+#diversos {
+    padding-bottom: 4rem;
+}

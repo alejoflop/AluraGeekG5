@@ -1,0 +1,19 @@
+.product__title {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: var(--fuente_principal);
+    color: var(--darkest-variation);
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 0px) {
+    .product__title {
+        font-size: 1.375rem;;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .product__title {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,30 @@
+.contacto__info ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.contacto__info-li {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--darkest-variation);
+}
+
+.contacto__info {
+    height: 100%;
+}
+
+@media screen and (min-width: 0px) {
+    .contacto__info {
+        height: 20.5rem;
+        text-align-last: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contacto__info {
+        height: 100%;
+        text-align-last: left;
+    }
+}

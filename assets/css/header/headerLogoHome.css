@@ -1,0 +1,17 @@
+.header__logoHome {
+    margin: 0 3.125rem 0 0;
+}
+
+@media screen and (min-width: 0px) {
+    .header__logoHome {
+        width: 6.25rem;
+        height: 1.75rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header__logoHome {
+        width: auto;
+        height: auto;
+    }
+}

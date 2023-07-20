@@ -1,0 +1,8 @@
+@import url(bannerContainer.css);
+@import url(bannerInfo.css);
+@import url(bannerButton.css);
+
+.banner {
+    overflow: hidden;
+    background: url(/assets/img/banner.png) center / cover no-repeat;
+}

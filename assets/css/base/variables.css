@@ -1,0 +1,28 @@
+:root {
+    --fuente_principal: 'Raleway', sans-serif;
+
+    --font-size-logo: 28px;
+    --font-size-card-title: 28px;
+    --font-size-input-label: 20px;
+    --font-size-button: 22px;
+    --font-size-form-fieldset: 22px;
+    --font-size-table-header: 22px;
+    --font-size-modal-title: 28px;
+    --font-size-modal-button: 28px;
+
+    --primary-color: #2A7AE4; /* Actions or interactive elements like links and buttons. Used por actions. */
+    --blue-variation: #EAF2FD;
+    --white: #FFFFFF; /* Used for the main background. */
+    --lightest-variation: #F5F5F5; /* Used for alternate backgrounds. */
+
+    --dark-variation: #A2A2A2; /* Used for secondary text. */
+    --darkest-variation: #464646; /* Used for heading text. */
+
+    --shadow: 0 5px 10px #55a6ff38;
+}
+
+@media (min-width: 800px) {
+    :root {
+        --font-size-logo: 56px;
+    }
+}
