@@ -41,7 +41,7 @@ const actualizarProducto = (url, categoria, productName, price, description, id)
 
 // Leer admins
 
-const listaAdmins = () => fetch("http://localhost:3000/admins").then( respuesta => respuesta.json());
+const listaAdmins = () => fetch("https://github.com/alejoflop/AluraGeekG5/blob/main/db.json").then( respuesta => respuesta.json());
 
 // Ver más
 
