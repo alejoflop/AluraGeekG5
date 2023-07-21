@@ -1,8 +1,8 @@
-@import url(/assets/css/add/addButton.css);
-@import url(/assets/css/add/addContainer.css);
-@import url(/assets/css/add/addForm.css);
-@import url(/assets/css/add/addInput.css);
-@import url(/assets/css/add/addTitle.css);
+@import url(./addButton.css);
+@import url(./addContainer.css);
+@import url(./addForm.css);
+@import url(./addInput.css);
+@import url(./addTitle.css);
 
 .add__container {
     background: var(--lightest-variation);
