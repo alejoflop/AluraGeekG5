@@ -10,7 +10,7 @@ const crearNuevoProducto = (producto) => {
     <div class="product__info">
         <p class="product__name">${productName}</p>
         <p class="product__price">$ ${price}</p>
-        <a href="../screens/productInfo.html?id=${id}" data-verProducto>Ver producto</a>
+        <a href="../screens/productInfo.html" data-verProducto>Ver producto</a>
     </div>
     </div>`;
 
