@@ -6,7 +6,7 @@ const crearNuevoProducto = (url, productName, price, id) => {
     <img class="product__img" src="${url}" alt="${productName}">
     <div class="edit__buttons">
         <button class="delete__button" href="#" type="button" id="${id}"></button>
-        <a class="edit__button" href="../assets/screens/editarProducto.html?id=${id}"></a>
+        <a class="edit__button" href="../screens/editarProducto.html?id=${id}"></a>
     </div>
     <div class="product__info">
         <p class="product__name">${productName}</p>
