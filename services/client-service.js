@@ -45,10 +45,9 @@ const listaAdmins = () => fetch("https://64baba895e0670a501d696fe.mockapi.io/adm
 
 // Ver más
 
-const obtenerProductoId = async(id) => {
-    const respuesta = await fetch(`https://64baba895e0670a501d696fe.mockapi.io/products/${id}`)
-    return await respuesta.json()
-}
+const obtenerProductoId = (id) => {
+    return fetch(`https://64baba895e0670a501d696fe.mockapi.io/products/${id}`).then( (respuesta) => respuesta.json());
+};
 
 
 export const productServices = {
