@@ -7,7 +7,7 @@
   ],
   "products": [
     {
-      "url": "./assets/img/prodcut1StarWars.png",
+      "url": "/assets/img/prodcut1StarWars.png",
       "categoria": "Star Wars",
       "productName": "Producto XYZ",
       "price": "60,00",
@@ -15,7 +15,7 @@
       "id": "ca158da5-46a0-4cd7-9941-51b48c73f8f0"
     },
     {
-      "url": "/assets/img/prodcut2StarWars.png",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1929610/hero_capsule.jpg?t=1680037153",
       "categoria": "Star Wars",
       "productName": "Producto XYZ",
       "price": "60,00",
