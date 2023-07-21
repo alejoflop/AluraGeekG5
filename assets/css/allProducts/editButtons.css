@@ -12,21 +12,21 @@
 .delete__button {
     width: 22px;
     height: 22px;
-    background: url(/assets/img/delete.svg) no-repeat;
+    background: url(../../img/delete.svg) no-repeat;
 }
 
 .delete__button:hover {
-    background: url(/assets/img/delete_hover.svg) no-repeat;
+    background: url(../../img/delete_hover.svg) no-repeat;
 }
 
 .edit__button {
     width: 22px;
     height: 22px;
-    background: url(/assets/img/edit.svg) no-repeat;
+    background: url(../../img/edit.svg) no-repeat;
 }
 
 .edit__button:hover {
-    background: url(/assets/img/edit_hover.svg) no-repeat;
+    background: url(../../img/edit_hover.svg) no-repeat;
 }
 
 
