@@ -7,7 +7,7 @@
   ],
   "products": [
     {
-      "url": "/assets/img/prodcut1StarWars.png",
+      "url": "https://github.com/alejoflop/AluraGeekG5/blob/main/assets/img/prodcut1StarWars.png",
       "categoria": "Star Wars",
       "productName": "Producto XYZ",
       "price": "60,00",
