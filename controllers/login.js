@@ -12,7 +12,7 @@ login.addEventListener("submit", async (evento) => {
 
     console.log(admins)
 
-    admins['admins'].find(usuario => {
+    admins.find(usuario => {
         if (usuario.email === emailInput && usuario.password === passwordInput) {
             return window.location.href = "../screens/products.html"
         } else {

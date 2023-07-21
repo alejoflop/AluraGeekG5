@@ -14,7 +14,7 @@ formulario.addEventListener("submit", async (evento) => {
     try {
         const add = productServices.addProduct(url, categoria, productName, price, description);
         if (add) {
-            window.location.href = "/assets/screens/products.html"
+            alert("Producto agregado con exito regrese al Menu Administrador");
         } else {
             throw new Error();
         }

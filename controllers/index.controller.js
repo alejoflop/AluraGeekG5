@@ -27,7 +27,7 @@ const seccionDiversos = document.querySelector('[data-diversosCategoria]')
 const cargaProductosGeneral = async() => {
     const data = await productServices.listaProductos()
 
-    data['products'].filter(producto => {
+    data.filter(producto => {
         if(producto.categoria === 'Star Wars') {
             const nuevaCard = crearNuevoProducto(producto)
             seccionStarWars.appendChild(nuevaCard)

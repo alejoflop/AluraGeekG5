@@ -46,7 +46,7 @@ formulario.addEventListener("submit", async (evento) => {
     try {
         const actualizar = await productServices.actualizarProducto(url, categoria, productName, price, description, id);
         if (actualizar) {
-            window.location.href="/assets/screens/products.html"
+            window.location.href="../screens/products.html"
         } else {
             throw new Error();
         };

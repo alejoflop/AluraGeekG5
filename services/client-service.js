@@ -1,12 +1,12 @@
 // Leer productos
 
-const listaProductos = () => fetch("https://alejoflop.github.io/AluraGeekG5/db.json").then( respuesta => respuesta.json());
+const listaProductos = () => fetch("https://64baba895e0670a501d696fe.mockapi.io/products").then( respuesta => respuesta.json());
 
 
 // Agregar producto
 
 const addProduct = (url, categoria, productName, price, description) => {
-    return fetch("http://localhost:3000/products", {
+    return fetch(`https://64baba895e0670a501d696fe.mockapi.io/products`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -18,7 +18,7 @@ const addProduct = (url, categoria, productName, price, description) => {
 // Eliminar producto
 
 const eliminarProducto = (id) => {
-    return fetch(`https://alejoflop.github.io/AluraGeekG5/db.json/${id}`, {
+    return fetch(`https://64baba895e0670a501d696fe.mockapi.io/products/${id}`, {
         method: "DELETE",
     })
 }
@@ -26,11 +26,11 @@ const eliminarProducto = (id) => {
 // Editar producto
 
 const detalleProducto = (id) => {
-    return fetch(`http://localhost:3000/products/${id}`).then( (respuesta) => respuesta.json());
+    return fetch(`https://64baba895e0670a501d696fe.mockapi.io/products/${id}`).then( (respuesta) => respuesta.json());
 };
 
 const actualizarProducto = (url, categoria, productName, price, description, id) => {
-    return fetch(`http://localhost:3000/products/${id}`, {
+    return fetch(`https://64baba895e0670a501d696fe.mockapi.io/products/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
@@ -41,12 +41,12 @@ const actualizarProducto = (url, categoria, productName, price, description, id)
 
 // Leer admins
 
-const listaAdmins = () => fetch(`https://alejoflop.github.io/AluraGeekG5/db.json`).then( respuesta => respuesta.json());
+const listaAdmins = () => fetch("https://64baba895e0670a501d696fe.mockapi.io/admins").then( respuesta => respuesta.json());
 
 // Ver más
 
 const obtenerProductoId = async(id) => {
-    const respuesta = await fetch(`http://localhost:3000/products/${id}`)
+    const respuesta = await fetch(`https://64baba895e0670a501d696fe.mockapi.io/products/${id}`)
     return await respuesta.json()
 }
 

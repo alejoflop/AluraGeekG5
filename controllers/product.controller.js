@@ -19,7 +19,7 @@ const crearNuevoProducto = (url, productName, price, id) => {
     btn.addEventListener("click", () => {
         const id = btn.id;
         productServices.eliminarProducto(id).then( (respuesta) => {
-            console.log(respuesta);
+            alert("Producto Eliminado, por favor refresque la página");
         }).catch( (err) => alert("Ocurrió un error") );
     });
 
@@ -29,7 +29,7 @@ const crearNuevoProducto = (url, productName, price, id) => {
 const table = document.querySelector("[data-table]");
 
 productServices.listaProductos().then((data) => {
-    data['products'].forEach(({url, productName, price, id}) => {
+    data.forEach(({url, productName, price, id}) => {
         const nuevaLinea = crearNuevoProducto(url, productName, price, id);
         table.appendChild(nuevaLinea);
     });
