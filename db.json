@@ -7,7 +7,7 @@
   ],
   "products": [
     {
-      "url": "../assets/img/prodcut1StarWars.png",
+      "url": "./assets/img/prodcut1StarWars.png",
       "categoria": "Star Wars",
       "productName": "Producto XYZ",
       "price": "60,00",
