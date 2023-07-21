@@ -7,7 +7,7 @@
   ],
   "products": [
     {
-      "url": "/assets/img/prodcut1StarWars.png",
+      "url": "https://raw.githubusercontent.com/alejoflop/AluraGeekG5/main/assets/img/prodcut1StarWars.png",
       "categoria": "Star Wars",
       "productName": "Producto XYZ",
       "price": "60,00",
@@ -23,7 +23,7 @@
       "id": "ddbe1942-ead4-4718-91e2-f2f3a6d19aed"
     },
     {
-      "url": "/assets/img/prodcut3StarWars.png",
+      "url": "https://github.com/alejoflop/AluraGeekG5/blob/main/assets/img/prodcut3StarWars.png",
       "categoria": "Star Wars",
       "productName": "Producto XYZ",
       "price": "60,00",
