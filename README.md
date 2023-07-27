@@ -9,7 +9,7 @@
      <img src="https://img.shields.io/badge/JavaScript-FEFF01?logo=javascript&logoColor=000000&style=for-the-badge"/>
 </div>
 
-# Descripción
+# ℹ️ Descripción
 
 Este proyecto consiste en un e-commerce que utiliza tecnologías HTML, CSS y JavaScript para estructurar, estilizar y hacerlo dinámico.
 
@@ -21,7 +21,7 @@ Todo esto se logra utilizando las bases de HTTP y mockapi.io como base de datos,
 
 
 
-# Autor
+# 🧔🏻 Autor
    
 [![Linkedin](https://raw.githubusercontent.com/alejoflop/ChallengeEncriptador/main/imagenes/linkedin.svg)](https://www.linkedin.com/in/alejandroflorezl/)
 
